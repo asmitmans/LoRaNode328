@@ -18,3 +18,4 @@
 # Carpetas de caché y PyCache si usas scripts en Python
 __pycache__/
 .cache/
+LoRaNode328-backups/
