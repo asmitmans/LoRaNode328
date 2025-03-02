@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 91.44 31.75)
-		(size 12.7 5.08)
+		(at 87.63 30.48)
+		(size 31.75 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,7 +18,7 @@
 		)
 		(uuid "2f968173-500b-405d-91c1-1d157a663cec")
 		(property "Sheetname" "LoRa"
-			(at 91.44 31.0384 0)
+			(at 87.63 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,13 +27,123 @@
 			)
 		)
 		(property "Sheetfile" "LoRa.kicad_sch"
-			(at 91.44 37.4146 0)
+			(at 87.63 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "LORA_3V3" input
+			(at 87.63 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f316c6b2-de5a-4a17-ad6c-d4ddb718ebc3")
+		)
+		(pin "RAK_PB12" output
+			(at 119.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6cdf89b4-6826-480e-92c5-09aa93110d25")
+		)
+		(pin "RAK_PA1" output
+			(at 119.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22b6efb9-e188-4992-a74b-0ba6ba508713")
+		)
+		(pin "RAK_PB5" output
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "af5ad323-820f-4fdc-8b8c-4567e58cc227")
+		)
+		(pin "RAK_PA0" output
+			(at 119.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8bba8c58-db87-4eca-befd-49f245091954")
+		)
+		(pin "RAK_RESET" input
+			(at 87.63 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff050a70-4b29-4b52-a2d8-787976accefe")
+		)
+		(pin "RAK_UART1_RX" input
+			(at 87.63 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff7c750e-c8f4-4ef8-b754-d110adbf2e2b")
+		)
+		(pin "RAK_UART1_TX" output
+			(at 87.63 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "529c9e80-d792-4fff-b6e2-f3e4a0dfba54")
+		)
+		(pin "RAK_BOOT" input
+			(at 87.63 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "31e116d6-90e6-43cd-9338-9042428c308c")
+		)
+		(pin "RAK_UART2_TX" output
+			(at 87.63 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d6bdfc34-e77f-4f77-9890-67cc8cf46434")
+		)
+		(pin "RAK_UART2_RX" input
+			(at 87.63 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eebaea37-8d8b-45aa-901d-3292820ce423")
 		)
 		(instances
 			(project "LoRaNode328"
@@ -102,7 +212,7 @@
 		)
 	)
 	(sheet
-		(at 191.77 30.48)
+		(at 138.43 30.48)
 		(size 12.7 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -114,7 +224,7 @@
 		)
 		(uuid "afd08f6c-8697-42df-9973-4c492851993a")
 		(property "Sheetname" "Sensors"
-			(at 191.77 29.7684 0)
+			(at 138.43 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -123,7 +233,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 191.77 36.1446 0)
+			(at 138.43 36.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,7 +250,7 @@
 		)
 	)
 	(sheet
-		(at 191.77 60.96)
+		(at 138.43 60.96)
 		(size 12.7 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -152,7 +262,7 @@
 		)
 		(uuid "c4f9c729-ac2e-4c38-94d3-26bb33a7c408")
 		(property "Sheetname" "Connectors"
-			(at 191.77 60.2484 0)
+			(at 138.43 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,7 +271,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 191.77 66.6246 0)
+			(at 138.43 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,6 +527,16 @@
 			)
 			(uuid "1e7d42b9-7115-42c5-a9df-3181f2680383")
 		)
+		(pin "MCU_3V3" input
+			(at 35.56 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "238f3d5e-535a-4b73-bba8-65d2dbbb1cb0")
+		)
 		(instances
 			(project "LoRaNode328"
 				(path "/e0ffc31c-24f5-4303-8af9-d0625c9ddd62"
@@ -426,7 +546,7 @@
 		)
 	)
 	(sheet
-		(at 191.77 45.72)
+		(at 138.43 45.72)
 		(size 12.7 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -438,7 +558,7 @@
 		)
 		(uuid "c6cbfb80-403d-495c-81c3-fcdf300803b8")
 		(property "Sheetname" "Power_Control"
-			(at 191.77 45.0084 0)
+			(at 138.43 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -447,7 +567,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Control.kicad_sch"
-			(at 191.77 51.3846 0)
+			(at 138.43 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
