@@ -212,8 +212,8 @@
 		)
 	)
 	(sheet
-		(at 138.43 30.48)
-		(size 12.7 5.08)
+		(at 88.9 67.31)
+		(size 17.78 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -224,7 +224,7 @@
 		)
 		(uuid "afd08f6c-8697-42df-9973-4c492851993a")
 		(property "Sheetname" "Sensors"
-			(at 138.43 29.7684 0)
+			(at 88.9 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -233,13 +233,43 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 138.43 36.1446 0)
+			(at 88.9 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "SENS_3V3" input
+			(at 88.9 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e8a8f59d-d00e-42fe-b7d6-2be0b6c5a7c6")
+		)
+		(pin "SENS_SCL" input
+			(at 88.9 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a9abe5b-28f8-4316-abd4-1a86db8264fb")
+		)
+		(pin "SENS_SDA" input
+			(at 88.9 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a1258310-0d7b-410e-a526-0ac439f7cc49")
 		)
 		(instances
 			(project "LoRaNode328"
@@ -250,7 +280,7 @@
 		)
 	)
 	(sheet
-		(at 138.43 60.96)
+		(at 137.16 31.75)
 		(size 12.7 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -262,7 +292,7 @@
 		)
 		(uuid "c4f9c729-ac2e-4c38-94d3-26bb33a7c408")
 		(property "Sheetname" "Connectors"
-			(at 138.43 60.2484 0)
+			(at 137.16 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,7 +301,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 138.43 66.6246 0)
+			(at 137.16 37.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -546,7 +576,7 @@
 		)
 	)
 	(sheet
-		(at 138.43 45.72)
+		(at 119.38 68.58)
 		(size 12.7 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -558,7 +588,7 @@
 		)
 		(uuid "c6cbfb80-403d-495c-81c3-fcdf300803b8")
 		(property "Sheetname" "Power_Control"
-			(at 138.43 45.0084 0)
+			(at 119.38 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -567,7 +597,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Control.kicad_sch"
-			(at 138.43 51.3846 0)
+			(at 119.38 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
