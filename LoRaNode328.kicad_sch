@@ -576,8 +576,8 @@
 		)
 	)
 	(sheet
-		(at 119.38 68.58)
-		(size 12.7 5.08)
+		(at 87.63 92.71)
+		(size 33.02 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -588,7 +588,7 @@
 		)
 		(uuid "c6cbfb80-403d-495c-81c3-fcdf300803b8")
 		(property "Sheetname" "Power_Control"
-			(at 119.38 67.8684 0)
+			(at 87.63 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,13 +597,103 @@
 			)
 		)
 		(property "Sheetfile" "Power_Control.kicad_sch"
-			(at 119.38 74.2446 0)
+			(at 87.63 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "LC_3V3" input
+			(at 87.63 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "387582ce-f9c1-40e2-bfcf-fbde268ca1d2")
+		)
+		(pin "LORA_EN" input
+			(at 87.63 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e94ff38e-3792-4976-9c73-42ffabb3b474")
+		)
+		(pin "SENS_EN" input
+			(at 87.63 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aed16b01-5326-49d6-97c8-bad1cc319a85")
+		)
+		(pin "SENS_3V3" output
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "db60d3c5-8e6f-4182-9519-da54c754d403")
+		)
+		(pin "LORA_3V3" output
+			(at 120.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d7587d2c-4b4f-479c-a0ed-074b32ea2365")
+		)
+		(pin "LOAD2_3V3" output
+			(at 120.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a747e3e9-7745-42ea-bc30-c994af7f4ed9")
+		)
+		(pin "LOAD1_3V3" output
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "adaa3402-f456-48ce-bc9c-9610c07bf1e2")
+		)
+		(pin "LOAD2_EN" input
+			(at 87.63 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8409302e-4dc6-4fd5-aa0b-028f67d9d488")
+		)
+		(pin "LOAD1_EN" input
+			(at 87.63 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b06d5bd-c5ff-4eb8-b82e-7763412d2e63")
 		)
 		(instances
 			(project "LoRaNode328"
