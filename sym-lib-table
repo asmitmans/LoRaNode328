@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "RAK3172")(type "KiCad")(uri "${KIPRJMOD}/RAK3172.kicad_sym")(options "")(descr ""))
+  (lib (name "RAK3172")(type "KiCad")(uri "${KIPRJMOD}/symbols/RAK3172.kicad_sym")(options "")(descr ""))
+  (lib (name "B2B-XH-A__LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/symbols/B2B-XH-A__LF__SN_.kicad_sym")(options "")(descr ""))
 )

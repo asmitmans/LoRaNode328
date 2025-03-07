@@ -280,7 +280,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 31.75)
+		(at 132.08 30.48)
 		(size 12.7 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -292,7 +292,7 @@
 		)
 		(uuid "c4f9c729-ac2e-4c38-94d3-26bb33a7c408")
 		(property "Sheetname" "Connectors"
-			(at 137.16 31.0384 0)
+			(at 132.08 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -301,7 +301,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 137.16 37.4146 0)
+			(at 132.08 36.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
