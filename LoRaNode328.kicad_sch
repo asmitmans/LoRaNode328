@@ -26,7 +26,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LoRa.kicad_sch"
+		(property "Sheetfile" "./schematics/LoRa.kicad_sch"
 			(at 87.63 59.0046 0)
 			(effects
 				(font
@@ -36,7 +36,7 @@
 			)
 		)
 		(pin "LORA_3V3" input
-			(at 87.63 35.56 180)
+			(at 87.63 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,7 +46,7 @@
 			(uuid "f316c6b2-de5a-4a17-ad6c-d4ddb718ebc3")
 		)
 		(pin "RAK_PB12" output
-			(at 119.38 43.18 0)
+			(at 119.38 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +56,7 @@
 			(uuid "6cdf89b4-6826-480e-92c5-09aa93110d25")
 		)
 		(pin "RAK_PA1" output
-			(at 119.38 38.1 0)
+			(at 119.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			(uuid "22b6efb9-e188-4992-a74b-0ba6ba508713")
 		)
 		(pin "RAK_PB5" output
-			(at 119.38 40.64 0)
+			(at 119.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +76,7 @@
 			(uuid "af5ad323-820f-4fdc-8b8c-4567e58cc227")
 		)
 		(pin "RAK_PA0" output
-			(at 119.38 35.56 0)
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +86,7 @@
 			(uuid "8bba8c58-db87-4eca-befd-49f245091954")
 		)
 		(pin "RAK_RESET" input
-			(at 87.63 39.37 180)
+			(at 87.63 36.83 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,7 +96,7 @@
 			(uuid "ff050a70-4b29-4b52-a2d8-787976accefe")
 		)
 		(pin "RAK_UART1_RX" input
-			(at 87.63 45.72 180)
+			(at 87.63 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106,7 +106,7 @@
 			(uuid "ff7c750e-c8f4-4ef8-b754-d110adbf2e2b")
 		)
 		(pin "RAK_UART1_TX" output
-			(at 87.63 48.26 180)
+			(at 87.63 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,7 +116,7 @@
 			(uuid "529c9e80-d792-4fff-b6e2-f3e4a0dfba54")
 		)
 		(pin "RAK_BOOT" input
-			(at 87.63 41.91 180)
+			(at 87.63 39.37 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126,7 +126,7 @@
 			(uuid "31e116d6-90e6-43cd-9338-9042428c308c")
 		)
 		(pin "RAK_UART2_TX" output
-			(at 87.63 54.61 180)
+			(at 87.63 52.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,7 +136,7 @@
 			(uuid "d6bdfc34-e77f-4f77-9890-67cc8cf46434")
 		)
 		(pin "RAK_UART2_RX" input
-			(at 87.63 52.07 180)
+			(at 87.63 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +174,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Power_Regulator.sch.kicad_sch"
+		(property "Sheetfile" "./schematics/Power_Regulator.sch.kicad_sch"
 			(at 35.56 41.2246 0)
 			(effects
 				(font
@@ -184,7 +184,7 @@
 			)
 		)
 		(pin "VCC_3V3" output
-			(at 71.12 35.56 0)
+			(at 71.12 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,7 +194,7 @@
 			(uuid "7f6d1f63-1cd7-4a1d-a3f2-b96efa027e6c")
 		)
 		(pin "VBAT" input
-			(at 35.56 35.56 180)
+			(at 35.56 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -232,7 +232,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sensors.kicad_sch"
+		(property "Sheetfile" "./schematics/Sensors.kicad_sch"
 			(at 88.9 83.1346 0)
 			(effects
 				(font
@@ -281,7 +281,7 @@
 	)
 	(sheet
 		(at 132.08 30.48)
-		(size 12.7 5.08)
+		(size 31.75 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -300,14 +300,34 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 132.08 36.1446 0)
+		(property "Sheetfile" "./schematics/Connectors.kicad_sch"
+			(at 132.08 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "BAT+" output
+			(at 163.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e7858a22-cd24-47fb-91fd-d52d87c5065e")
+		)
+		(pin "BAT-" output
+			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e72dae12-48cc-464b-9dcb-c1a72af2a0fa")
 		)
 		(instances
 			(project "LoRaNode328"
@@ -338,7 +358,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCU.kicad_sch"
+		(property "Sheetfile" "./schematics/MCU.kicad_sch"
 			(at 35.56 102.1846 0)
 			(effects
 				(font
@@ -596,7 +616,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Power_Control.kicad_sch"
+		(property "Sheetfile" "./schematics/Power_Control.kicad_sch"
 			(at 87.63 114.8846 0)
 			(effects
 				(font

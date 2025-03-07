@@ -867,7 +867,7 @@
 			(uuid "90ef0272-d14a-42c6-9a36-20686db18065")
 		)
 		(instances
-			(project ""
+			(project "LoRaNode328"
 				(path "/e0ffc31c-24f5-4303-8af9-d0625c9ddd62/afd08f6c-8697-42df-9973-4c492851993a"
 					(reference "R5")
 					(unit 1)
@@ -1089,7 +1089,7 @@
 			(uuid "e2fdf413-4c06-40a4-8259-26c2ad5bcead")
 		)
 		(instances
-			(project ""
+			(project "LoRaNode328"
 				(path "/e0ffc31c-24f5-4303-8af9-d0625c9ddd62/afd08f6c-8697-42df-9973-4c492851993a"
 					(reference "U4")
 					(unit 1)
@@ -1155,7 +1155,7 @@
 			(uuid "daeb45c3-47ac-4994-b412-b071b0adb682")
 		)
 		(instances
-			(project ""
+			(project "LoRaNode328"
 				(path "/e0ffc31c-24f5-4303-8af9-d0625c9ddd62/afd08f6c-8697-42df-9973-4c492851993a"
 					(reference "#PWR013")
 					(unit 1)

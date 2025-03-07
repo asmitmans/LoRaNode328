@@ -2491,7 +2491,7 @@
 			(uuid "2d7326b0-37ff-4a73-b570-183a41f6bd06")
 		)
 		(instances
-			(project ""
+			(project "LoRaNode328"
 				(path "/e0ffc31c-24f5-4303-8af9-d0625c9ddd62/c544bbb4-4120-4a0c-b3e8-54718c20e48f"
 					(reference "#PWR016")
 					(unit 1)
@@ -2856,7 +2856,7 @@
 			(uuid "d16b4462-5b0a-4096-a708-d078276f06cd")
 		)
 		(instances
-			(project ""
+			(project "LoRaNode328"
 				(path "/e0ffc31c-24f5-4303-8af9-d0625c9ddd62/c544bbb4-4120-4a0c-b3e8-54718c20e48f"
 					(reference "U2")
 					(unit 1)
@@ -2923,7 +2923,7 @@
 			(uuid "ee002a1b-6941-4353-a0b1-424657bb7cc3")
 		)
 		(instances
-			(project ""
+			(project "LoRaNode328"
 				(path "/e0ffc31c-24f5-4303-8af9-d0625c9ddd62/c544bbb4-4120-4a0c-b3e8-54718c20e48f"
 					(reference "Y2")
 					(unit 1)
@@ -2991,7 +2991,7 @@
 			(uuid "c3bb5abc-632c-4314-8632-fb54e4de9a1b")
 		)
 		(instances
-			(project ""
+			(project "LoRaNode328"
 				(path "/e0ffc31c-24f5-4303-8af9-d0625c9ddd62/c544bbb4-4120-4a0c-b3e8-54718c20e48f"
 					(reference "R1")
 					(unit 1)
@@ -3261,7 +3261,7 @@
 			(uuid "28dd296e-5ddc-4508-98e7-74cb312cecd2")
 		)
 		(instances
-			(project ""
+			(project "LoRaNode328"
 				(path "/e0ffc31c-24f5-4303-8af9-d0625c9ddd62/c544bbb4-4120-4a0c-b3e8-54718c20e48f"
 					(reference "C4")
 					(unit 1)
