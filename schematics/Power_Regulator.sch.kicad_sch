@@ -1082,6 +1082,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 88.9) (xy 83.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b908f11-091b-46dc-93d5-2e66abfa8e18")
+	)
+	(wire
+		(pts
 			(xy 144.78 107.95) (xy 144.78 110.49)
 		)
 		(stroke
@@ -1172,6 +1182,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 88.9) (xy 83.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28bccb4-bf2d-4aa5-a366-f51c11ada6c6")
+	)
+	(wire
+		(pts
 			(xy 160.02 102.87) (xy 165.1 102.87)
 		)
 		(stroke
@@ -1250,7 +1270,19 @@
 		)
 		(uuid "f7ff9350-b0b5-4e69-b056-0d1c4f134faf")
 	)
-	(hierarchical_label "VBAT"
+	(hierarchical_label "VBAT-"
+		(shape input)
+		(at 81.28 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59b9978e-09df-47ad-af03-d475383e8564")
+	)
+	(hierarchical_label "VBAT+"
 		(shape input)
 		(at 81.28 85.09 180)
 		(fields_autoplaced yes)
@@ -1675,6 +1707,72 @@
 			(project "LoRaNode328"
 				(path "/e0ffc31c-24f5-4303-8af9-d0625c9ddd62/8dfb4983-4a6d-4e74-b475-21245385cc4d"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 83.82 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7eacbd0-f78a-4b62-8f6d-c56953c890d8")
+		(property "Reference" "#PWR046"
+			(at 83.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 83.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a959fde9-f93d-4612-a6e1-dd53e0e013f4")
+		)
+		(instances
+			(project "LoRaNode328"
+				(path "/e0ffc31c-24f5-4303-8af9-d0625c9ddd62/8dfb4983-4a6d-4e74-b475-21245385cc4d"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)

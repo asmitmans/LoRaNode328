@@ -1186,7 +1186,7 @@
 		)
 		(uuid "1ca2948d-244a-45da-9899-51fce5642481")
 	)
-	(hierarchical_label "LC_3V3"
+	(hierarchical_label "PWR_C_3V3"
 		(shape input)
 		(at 87.63 30.48 180)
 		(fields_autoplaced yes)
@@ -1210,7 +1210,7 @@
 		)
 		(uuid "2cb38129-c57f-4215-a32a-5d23f24d19f6")
 	)
-	(hierarchical_label "LC_3V3"
+	(hierarchical_label "PWR_C_3V3"
 		(shape input)
 		(at 87.63 104.14 180)
 		(fields_autoplaced yes)
@@ -1222,7 +1222,7 @@
 		)
 		(uuid "3dbd9057-9c2c-483d-8131-84d7a59f003d")
 	)
-	(hierarchical_label "LC_3V3"
+	(hierarchical_label "PWR_C_3V3"
 		(shape input)
 		(at 87.63 66.04 180)
 		(fields_autoplaced yes)
@@ -1294,7 +1294,7 @@
 		)
 		(uuid "d55c125f-5e72-4968-9d51-b8cefe7f1ad4")
 	)
-	(hierarchical_label "LC_3V3"
+	(hierarchical_label "PWR_C_3V3"
 		(shape input)
 		(at 87.63 139.7 180)
 		(fields_autoplaced yes)
