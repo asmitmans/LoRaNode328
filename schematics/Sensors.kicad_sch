@@ -607,16 +607,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 95.25) (xy 172.72 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "304ace48-2ccc-44eb-81fb-04ee0ce457f7")
-	)
-	(wire
-		(pts
 			(xy 160.02 92.71) (xy 167.64 92.71)
 		)
 		(stroke
@@ -654,16 +644,6 @@
 			(type default)
 		)
 		(uuid "4d0baaf1-db5c-4d59-8741-94859ccc6d94")
-	)
-	(wire
-		(pts
-			(xy 172.72 92.71) (xy 172.72 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6423fa6e-52e3-47f4-a20b-7edbf108f13a")
 	)
 	(wire
 		(pts
@@ -758,8 +738,8 @@
 		(uuid "5d8c2b2f-7676-444e-808e-9b023d06f684")
 	)
 	(hierarchical_label "SENS_SDA"
-		(shape input)
-		(at 172.72 96.52 0)
+		(shape bidirectional)
+		(at 172.72 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -783,7 +763,7 @@
 	)
 	(hierarchical_label "SENS_SCL"
 		(shape input)
-		(at 172.72 90.17 0)
+		(at 172.72 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
