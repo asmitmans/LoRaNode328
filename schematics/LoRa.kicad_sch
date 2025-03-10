@@ -282,7 +282,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "RAK3172:RAK3172"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2564,7 +2564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RAK3172:RAK3172"
 			(at 132.08 64.77 0)
 			(effects
 				(font

@@ -155,16 +155,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 78.74 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27814804-3ed2-4c43-8c47-894e07295ff6")
-	)
-	(wire
-		(pts
 			(xy 180.34 81.28) (xy 180.34 116.84)
 		)
 		(stroke
@@ -695,16 +685,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 81.28) (xy 81.28 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8dae780-f85f-42ce-bfe2-3d48f7c5f691")
-	)
-	(wire
-		(pts
 			(xy 175.26 124.46) (xy 175.26 129.54)
 		)
 		(stroke
@@ -802,6 +782,16 @@
 			(type default)
 		)
 		(uuid "fbdb6bbb-9604-42ff-929e-78764c74ae46")
+	)
+	(wire
+		(pts
+			(xy 78.74 78.74) (xy 78.74 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc342468-4f69-48d2-8ea1-9a484e3fb7c2")
 	)
 	(text "IMPORTANTE: Los pines ICP (ISP) y FTDI son para programación sin fuente.\nPara comunicación con el sistema alimentado, NO conectar VCC del FTDI."
 		(exclude_from_sim no)
@@ -923,8 +913,8 @@
 		)
 	)
 	(sheet
-		(at 73.66 63.5)
-		(size 20.32 17.78)
+		(at 76.2 63.5)
+		(size 17.78 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -935,7 +925,7 @@
 		)
 		(uuid "8dfb4983-4a6d-4e74-b475-21245385cc4d")
 		(property "Sheetname" "Power_Regulator"
-			(at 73.66 62.7884 0)
+			(at 76.2 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,7 +934,7 @@
 			)
 		)
 		(property "Sheetfile" "./schematics/Power_Regulator.sch.kicad_sch"
-			(at 73.66 81.8646 0)
+			(at 76.2 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,7 +954,7 @@
 			(uuid "7f6d1f63-1cd7-4a1d-a3f2-b96efa027e6c")
 		)
 		(pin "VBAT+" input
-			(at 78.74 81.28 270)
+			(at 78.74 78.74 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,16 +962,6 @@
 				(justify left)
 			)
 			(uuid "7fd3fdff-52c0-4ba9-907d-5d385c8ab5b6")
-		)
-		(pin "VBAT-" input
-			(at 81.28 81.28 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e100343c-f0e2-46cf-bd98-cd1146c68c46")
 		)
 		(instances
 			(project "LoRaNode328"
@@ -1160,26 +1140,6 @@
 				(justify right)
 			)
 			(uuid "0e465ff8-c670-488c-8593-c2e70278f216")
-		)
-		(pin "BAT-" input
-			(at 81.28 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "89430450-e900-481e-83d9-b97a14e86d13")
-		)
-		(pin "BAT+" input
-			(at 78.74 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "fa7d89b5-6cdb-4b70-9767-436602e1a26a")
 		)
 		(pin "ISP_MOSI" output
 			(at 115.57 129.54 90)
@@ -1380,6 +1340,16 @@
 				(justify right)
 			)
 			(uuid "c7a04979-e48f-4d08-addd-a0e83db8acae")
+		)
+		(pin "BAT+" output
+			(at 78.74 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0436776b-0423-4fa8-8871-a9e3d723ae83")
 		)
 		(instances
 			(project "LoRaNode328"
